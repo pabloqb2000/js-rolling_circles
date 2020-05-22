@@ -17,7 +17,7 @@ The discretize button resets the radious of the circles and makes them go in int
 ## Screenshots
 <img src="imgs/screenshot01.png"></img>
 <img src="imgs/screenshot02.png"></img>
-<img src="imgs/screenshot02.png"></img>
+<img src="imgs/screenshot03.png"></img>
 ## References
 To find more information about the <b>awesome</b> library used for this proyect visit:
 <a href="https://p5js.org/"> https://p5js.org/ </a>
