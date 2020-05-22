@@ -1,33 +1,26 @@
-let sld;
-let btn;
-let tggl;
-let cPicker;
+let nCirclesSld;
+let radious = [10, 30];
 
 function setup() {
 	createCanvas(windowWidth, windowHeight);
 	background(32);
-	sld = new Slider(start=0, end=255, value=32, 0, 0, 100, 10, null, "Background");
-	btn = new Button(x=0, y=0, width=100, height=20, "Reset", resetValue);
-	tggl = new ToggleButton(0,0,100,20,"Discrete", discretice);
-	cPicker = new ColorPicker(0,0, 100, 10, 20);
+	nCirclesSld = new Slider(start=2, end=10, value=2, 0, 0, width/12, height/60, 1, "Number of circles", true, 0);
 	UI.tableWidth = 1;
-	UI.tableHeight = 6;
+	UI.tableHeight = 100;
 	UI.distrubute();
 }
 
 function draw() {
-	background(sld.value);
+	background(32);
 	UI.update();
 	UI.draw();
-	translate(width/2, height/2);
-}
-
-function resetValue() {
-	sld.value = 32;
-}
-
-function discretice() {
-	sld.step = (sld.step == null ? 20 : null);
+	translate(width/2 + width/12, height/2);
+	noFill();
+	strokeWeight(1);
+	stroke(124);
+	for(let r of radious) {
+		ellipse(0, 0, r, r);
+	}
 }
 
 function mouseDragged() {
