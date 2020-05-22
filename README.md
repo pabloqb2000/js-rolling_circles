@@ -1,7 +1,7 @@
 # js-rolling circles
 This is a small proyect to draw diferent shapes made by rolling some over others, it's made using the awesome library <a href="https://p5js.org/">p5.js</a>.
 ## URL
-This is a template proyect so I don't have it hosted by github pages, but you can checkout this other proyect at <a href="https://pabloqb2000.github.io/js-rolling_circles/">this link</a>.
+This proyect is hosted by github pages, you can check it out at <a href="https://pabloqb2000.github.io/js-rolling_circles/">this link</a>.
 ## Available options
   - Number of circles rolling
   - Speed, to change the speed of the animation (wich might result in sharper edges)
