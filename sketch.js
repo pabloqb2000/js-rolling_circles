@@ -94,16 +94,3 @@ function discretize(){
 	UIupdate();
 }
 
-function mouseDragged() {
-	UI.mouseDragged();
-}
-
-function mousePressed() {
-	UI.mouseClicked();
-}
-
-// function keyPressed() {
-//   if(keyCode === 83){
-//
-//   }
-// }
