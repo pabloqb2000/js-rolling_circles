@@ -21,3 +21,6 @@ The discretize button resets the radious of the circles and makes them go in int
 ## References
 To find more information about the <b>awesome</b> library used for this proyect visit:
 <a href="https://p5js.org/"> https://p5js.org/ </a>
+
+## Other proyects
+Checkout my other proyects at <a href="https://pabloqb2000.github.io/Math_visualization/">Click math</a>
