@@ -7,7 +7,7 @@ let resetBtn;
 let discretizeBtn;
 
 function setup() {
-	textFont("Sarpanch");
+	textFont("Orbitron");
 	createCanvas(windowWidth, windowHeight);
 	background(32);
 
