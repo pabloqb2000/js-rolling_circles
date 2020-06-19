@@ -49,6 +49,7 @@ function draw() {
 			ellipse(0, 0, radious[i].value*2, radious[i].value*2);
 			if(i < radious.length - 1) {
 				rotate(angles[i]);
+				line(0,0, radious[i].value, 0);
 				translate(radious[i].value + radious[i+1].value, 0);
 				angles[i] += speedSld.value / radious[i].value * 10;
 			}
